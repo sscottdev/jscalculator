@@ -15,3 +15,7 @@ function subtract(){
 function multi(){
     output.innerHTML = `${parseInt(input1.value) * input2.value}`
 }
+
+function divide(){
+    output.innerHTML = `${parseInt(input1.value) / input2.value}`
+}
